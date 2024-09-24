@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ru.yandex.practicum.seleniumtest.FAQBlockAssertionTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.37 s -- in ru.yandex.practicum.seleniumtest.FAQBlockAssertionTest

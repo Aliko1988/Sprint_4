@@ -1,0 +1,5 @@
+ru\yandex\practicum\webdriverfactory\WebDriverFactory.class
+ru\yandex\practicum\pageobject\SamokatPageObject.class
+ru\yandex\practicum\сonstants\Browsers.class
+ru\yandex\practicum\сonstants\FAQAnswerText.class
+ru\yandex\practicum\сonstants\FAQQuestionText.class
