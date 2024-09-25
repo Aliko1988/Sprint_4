@@ -11,7 +11,7 @@ import static ru.yandex.practicum.сonstants.FAQQuestionText.*;
 @RunWith(Parameterized.class)
 public class FAQBlockAssertionTest extends AbstractTest  {
 
-    //private WebDriver driver;
+
     private final String textQuestion;
     private final String ethalonAnswerText;
     private final String indexAnswer;
@@ -41,7 +41,7 @@ public class FAQBlockAssertionTest extends AbstractTest  {
 
 
     @Test
-    public void blockFAQAssertionTest(){        //  позитивный сценарий дл валидации ответов в блоке FAQ.
+    public void blockFAQAssertionTest(){        //  позитивный сценарий для валидации ответов в блоке FAQ.
 
         SamokatPageObject mainPageObject = new SamokatPageObject(driver);
 

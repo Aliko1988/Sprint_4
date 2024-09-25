@@ -4,10 +4,7 @@ package ru.yandex.practicum.seleniumtest;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
-import ru.yandex.practicum.pageobject.SamokatPageObject;
 
-import static ru.yandex.practicum.сonstants.FAQAnswerText.*;
 import static ru.yandex.practicum.сonstants.FAQAnswerText.EIGHTH_ANSWER;
 import static ru.yandex.practicum.сonstants.FAQQuestionText.*;
 import static ru.yandex.practicum.сonstants.FAQQuestionText.EIGHTH_QUESTION;
@@ -40,9 +37,10 @@ public class OrderCreationHeaderButtonTest extends AbstractTest {
     @Parameterized.Parameters
     public static Object[][] createOrderParams() {
         return new Object[][] {
-                { "петрова", "иванова", "сидорова, улица петрова, дом 123", "Алматы", "8901234567890", "22.09.2024", "трое суток"},
-                {"иванов", "петров", "Питер, Москва", "мхад", "83534000000", "21.09.2024", "двое суток"},
-                {"петрова", "петрова1", "иванова, центральная", "Огонь", "89035353543", "01.09.2026", " пять суток"},
+                { "петрова", "иванова", "сидорова, "улица петрова, дом 123", "Лубянка", "8901234567890", "22.09.2024", "трое суток"},
+                 { "иванова", "петрова", "сидорова, "улица петрова, дом 124", "Лубянка", "8901234567891", "23.09.2024", "двое суток"},
+                  { "сидорова", "петрова", "сидорова, "улица петрова, дом 125", "Лубянка", "8901234567892", "23.09.2024", "сутки"}
+
         };
     }
 

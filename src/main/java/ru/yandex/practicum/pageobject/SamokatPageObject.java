@@ -41,10 +41,10 @@ public class SamokatPageObject {
     private final By phoneFieldOrderSelector = By.xpath("//input[@placeholder='* Телефон: на него позвонит курьер']");
     // cелектор поля Телефон страницы создания заказа
 
-    private final By nextButtonOrderSelector = By.xpath("//div[@class='Order_NextButton__1_rCA']/button[text()='Далее']");
+    private final By nextButtonOrderSelector = By.xpath("//button[contains(text(), 'Далее')]");
     // селектор кнопки Далее страницы создания заказа
 
-    private final By dateFieldOrderSelector = By.xpath("//input[@placeholder='* Когда привезти самокат']");
+    private final By dateFieldOrderSelector = By.xpath("//input[contains(@placeholder, 'Когда привезти самокат')]");
     //селектор поля выбора Даты страницы создания заказа
 
     private final By rentFieldOrderSelector =  By.xpath("//div[text()='* Срок аренды']");

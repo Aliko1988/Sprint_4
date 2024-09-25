@@ -5,7 +5,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.practicum.webdriverfactory.WebDriverFactory;
 
-import static ru.yandex.practicum.сonstants.Browsers.*;
+import static ru.yandex.practicum.constants.Browsers.*;
 
 public class AbstractTest {
 
